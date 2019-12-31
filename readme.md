@@ -4,6 +4,10 @@
 
 O arquivo database/database.sqlite deve estar criado caso opte por usar o SQLite.
 
+Instalando os pacotes
+```
+composer install
+```
 Execute o migrate
 ```
 php artisan migrate
@@ -23,6 +27,14 @@ Gerando código secreto da API
 ```
 php artisan jwt:secret
 ```
+
+Executando o server
+```
+php artisan serve
+```
+
+<a href="http://localhost:8000/graphiql">http://localhost:8000/graphiql</a>
+
 
 Cadastrando usuário
 ```
